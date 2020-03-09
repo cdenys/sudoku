@@ -26,12 +26,20 @@ Pour plus de détails sur l'historique, les méthodes de résolution, etc: [l'ar
 Vous trouverez dans le même répertoire un fichier de tests (thanks to [codewars](https://www.codewars.com/) pour les grilles),
  le but étant évidemment que votre code ~~casse la baraque~~ passe les tests !
 
-Pour les juniors, un conseil (d'ailleurs j'ai rajouté des tests en ce sens, donc c'est plus un conseil mais une obligation !): 
+Pour les juniors, un conseil (d'ailleurs j'ai rajouté des tests en ce sens, donc ce n'est plus un conseil mais une obligation !): 
 "diviser pour règner", décomposer le problème, ici en créant des méthodes pour isoler une ligne (ça ne sera pas le plus 
-dur ;-) ), une autre pour les colonnes et encore une autre pour les régions. Plus une dernière qui vérifie si chaque partie
-(ligne, colonne ou région) est correctement remplie, donc avec tous les chiffres de 1 à 9, chacun présent une seule fois
-(avec, par exemple l'utilisation de la structure de données [Set](https://ruby-doc.org/stdlib-2.6.5/libdoc/set/rdoc/Set.html), 
-mais c'est juste une suggestion, pas une obligation)
+dur ;-) ), une autre pour les colonnes et encore une autre pour les régions.  
+Pour cette dernière, je vous conseille de noter sur papier vos recherches, notamment pour voir les indices des triplets.  
+
+Plus une dernière méthode qui vérifie si chaque partie (ligne, colonne ou région) est correctement remplie, donc avec 
+tous les chiffres de 1 à 9, chacun présent une seule fois (avec, par exemple l'utilisation de la structure de données [Set](https://ruby-doc.org/stdlib-2.6.5/libdoc/set/rdoc/Set.html), 
+mais c'est juste une suggestion, pas une obligation). Vous remarquerez que cette méthode ".valid?" teste des tableaux, 
+donc vous allez utiliser une propriété de Ruby : la possibilité de réouvrir une classe, y compris celle de base de Ruby, 
+**à ne pas utiliser en prod**
 
 N.B. Petit test d'attention : avez-vous remarqué que, pas une seule fois (hormis dans le titre de ce README) le nom de 
 ce jeu n'a été correctement orthographié :-) ?
+
+### English version
+
+The goal of this kata is to check if a already filled grid is good or not. for [more explanations of this game, the Wikipedia page](https://en.wikipedia.org/wiki/Sudoku)
