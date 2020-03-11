@@ -19,7 +19,8 @@ Voici comment se présente une grille de Sudokou:
 
 Une grille de Sodoku se présente sous la forme d'une grille carrée de 9 lignes et 9 colonnes subdivisée en 9 sous-grilles carrées 
 de 3 par 3 cases, appelées « régions », et partiellement pré-remplie avec des chiffres de 1 à 9.  
-Le but de ce jeu (*pas celui du kata!*) est de remplir entièrement la grille avec les chiffres de 1 à 9 de telle façon que chaque chiffre apparaisse **une  
+Le but de ce jeu (*pas celui du kata, puisqu'ici on vous donne la grille déjà entièrement remplie!*) est de remplir entièrement la grille avec les chiffres de 1 à 9 de telle façon que 
+chaque chiffre apparaisse **une
 fois et une seule** dans chaque ligne, dans chaque colonne et dans chaque région.
 
 Voici un autre exemple de grille de Sudolu résolue, dont les chiffres initiaux figurent en rouge, sur les diagonales:  
