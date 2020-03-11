@@ -48,7 +48,9 @@ tous les chiffres de 1 à 9, chacun présent une seule fois (avec, par exemple l
 qui est comme un Array mais où chaque élèment est unique, mais, encore une fois, c'est juste une suggestion, pas une obligation).  
 Vous remarquerez que cette méthode ".valid?" teste des tableaux/Array, 
 donc vous allez utiliser une propriété de Ruby : la possibilité de réouvrir une classe, y compris celles de base de Ruby, 
-ici "Array" pour y rajouter des méthodes. **Ceci (la réouverture de classes de base de Ruby) n'est pas à utiliser en prod**
+ici "Array" pour y rajouter des méthodes (ici, la méthode .valid?), le "monkey patching". **Ceci (la réouverture de classes de base de Ruby) n'est 
+pas à utiliser en prod**. Utilisez plutôt les "raffinements" (refinements) en VO, cf la doc sur les [refinements](https://ruby-doc.org/core-2.6.5/doc/syntax/refinements_rdoc.html) 
+qui limitent la portée des modifications.
 
 N.B. Petit test d'attention : avez-vous remarqué que, pas une seule fois (hormis dans le titre de ce README) le nom de 
 ce jeu n'a été correctement orthographié :-) ?
