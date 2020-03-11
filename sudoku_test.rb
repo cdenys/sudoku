@@ -82,7 +82,7 @@ class SudokuTest < Minitest::Test
     assert_equal expected, Sudoku.new(grid).regions[3].flatten
   end
 
-  def test_row_is_valid
+  def test_forth_row_is_valid
     # skip
     grid = [[5, 3, 4, 6, 7, 8, 9, 1, 2],
             [6, 7, 2, 1, 9, 5, 3, 4, 8],
@@ -96,7 +96,7 @@ class SudokuTest < Minitest::Test
     assert Sudoku.new(grid).rows[3].valid?
   end
 
-  def test_col_is_valid
+  def test_forth_col_is_valid
     # skip
     grid = [[5, 3, 4, 6, 7, 8, 9, 1, 2],
             [6, 7, 2, 1, 9, 5, 3, 4, 8],
@@ -110,7 +110,7 @@ class SudokuTest < Minitest::Test
     assert Sudoku.new(grid).columns[3].valid?
   end
 
-  def test_region_is_valid
+  def test_third_region_is_valid
     # skip
     grid = [[5, 3, 4, 6, 7, 8, 9, 1, 2],
             [6, 7, 2, 1, 9, 5, 3, 4, 8],
@@ -181,7 +181,7 @@ class SudokuTest < Minitest::Test
   end
 
 
-  def test_it_is_another_invalid_grid_3
+  def test_it_is_incomplete_invalid_grid
     # skip
     grid = [[1, 3, 2, 5, 7, 9, 4, 6, 8],
             [4, 9, 8, 2, 6, 0, 3, 7, 5],
@@ -196,7 +196,7 @@ class SudokuTest < Minitest::Test
   end
 
 
-  def test_it_is_invalid_grid_with_diagonal
+  def test_it_is_invalid_grid_with_repeated_diagonals
     # skip
     grid = [[1, 2, 3, 4, 5, 6, 7, 8, 9],
             [2, 3, 4, 5, 6, 7, 8, 9, 1],
