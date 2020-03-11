@@ -8,7 +8,7 @@ vous voulez vous initier aux joies du [retour arrière/retour sur trace/backtrac
  
 Comme d'habitude ~~Je me lève et je te bouscule
                    Tu n'te réveilles pas
-                   Comme d'habituuudeeeeee~~ (oups désolé, j'ai confondu Sudokou avec karaoké) on vous fournit gracieusement un fichier de tests pour vous
+                   Comme d'habituuudeeeeee~~ (oups désolé, j'ai confondu Soudoku avec karaoké) on vous fournit gracieusement un fichier de tests pour vous
  guider dans vos recherches.
 
 
