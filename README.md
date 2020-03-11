@@ -60,7 +60,7 @@ et lancer la commande suivante:
     gem install minitest
 
 Si vous voulez une sortie  en couleurs, rajoutez `require 'minitest/pride'` en haut du fichier test, ou notez l'instruction
- alternative, ci-dessous, pour lancer le fihcer test.
+ alternative, ci-dessous, pour lancer le fichier test.
 
 Pour lancer les tests, depuis le dossier de l'exercise, utilisez cette commande:
 
