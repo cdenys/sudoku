@@ -6,7 +6,9 @@ Quelques détails tout de même, on ne vous demande pas de coder un programme ca
 vous voulez vous initier aux joies du [retour arrière/retour sur trace/backtracking](https://fr.wikipedia.org/wiki/Retour_sur_trace)),
  juste de déterminer si une grille donnée (sous forme d'un tableau de tableaux) et déjà remplie est valide ou pas.  
  
-Comme d'habitude ~~je me lève et~~ (oups désolé, j'ai confondu Sudokou avec karaoké) on vous fournit gracieusement un fichier de tests pour vous
+Comme d'habitude ~~Je me lève et je te bouscule
+                   Tu n'te réveilles pas
+                   Comme d'habituuudeeeeee~~ (oups désolé, j'ai confondu Sudokou avec karaoké) on vous fournit gracieusement un fichier de tests pour vous
  guider dans vos recherches.
 
 
