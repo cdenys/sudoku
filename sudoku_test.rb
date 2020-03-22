@@ -2,6 +2,7 @@ require 'minitest/autorun'
 require_relative 'sudoku'
 
 class SudokuTest < Minitest::Test
+  # skip
   def test_it_finds_rows
     grid = [[5, 3, 4, 6, 7, 8, 9, 1, 2],
             [6, 7, 2, 1, 9, 5, 3, 4, 8],
@@ -16,6 +17,7 @@ class SudokuTest < Minitest::Test
   end
 
   def test_it_finds_columns
+    # skip
     grid = [[5, 3, 4, 6, 7, 8, 9, 1, 2],
             [6, 7, 2, 1, 9, 5, 3, 4, 8],
             [1, 9, 8, 3, 4, 2, 5, 6, 7],
@@ -38,6 +40,7 @@ class SudokuTest < Minitest::Test
   end
 
   def test_it_finds_9_regions
+    # skip
     grid = [[5, 3, 4, 6, 7, 8, 9, 1, 2],
             [6, 7, 2, 1, 9, 5, 3, 4, 8],
             [1, 9, 8, 3, 4, 2, 5, 6, 7],
@@ -51,6 +54,7 @@ class SudokuTest < Minitest::Test
   end
 
   def test_it_finds_the_third_region
+    # skip
     grid = [[5, 3, 4, 6, 7, 8, 9, 1, 2],
             [6, 7, 2, 1, 9, 5, 3, 4, 8],
             [1, 9, 8, 3, 4, 2, 5, 6, 7],
@@ -65,6 +69,7 @@ class SudokuTest < Minitest::Test
   end
 
   def test_it_finds_the_forth_region
+    # skip
     grid = [[5, 3, 4, 6, 7, 8, 9, 1, 2],
             [6, 7, 2, 1, 9, 5, 3, 4, 8],
             [1, 9, 8, 3, 4, 2, 5, 6, 7],
@@ -79,6 +84,7 @@ class SudokuTest < Minitest::Test
   end
 
   def test_forth_row_is_valid
+    # skip
     grid = [[5, 3, 4, 6, 7, 8, 9, 1, 2],
             [6, 7, 2, 1, 9, 5, 3, 4, 8],
             [1, 9, 8, 3, 4, 2, 5, 6, 7],
@@ -92,6 +98,7 @@ class SudokuTest < Minitest::Test
   end
 
   def test_forth_col_is_valid
+    # skip
     grid = [[5, 3, 4, 6, 7, 8, 9, 1, 2],
             [6, 7, 2, 1, 9, 5, 3, 4, 8],
             [1, 9, 8, 3, 4, 2, 5, 6, 7],
@@ -118,6 +125,7 @@ class SudokuTest < Minitest::Test
   end
 
   def test_it_is_valid_grid
+    # skip
     grid = [[5, 3, 4, 6, 7, 8, 9, 1, 2],
             [6, 7, 2, 1, 9, 5, 3, 4, 8],
             [1, 9, 8, 3, 4, 2, 5, 6, 7],
@@ -131,6 +139,7 @@ class SudokuTest < Minitest::Test
   end
 
   def test_it_is_invalid_grid
+    # skip
     grid = [[5, 3, 4, 6, 7, 8, 9, 1, 2],
             [6, 7, 2, 1, 9, 0, 3, 4, 9],
             [1, 0, 0, 3, 4, 2, 5, 6, 0],
@@ -144,6 +153,7 @@ class SudokuTest < Minitest::Test
   end
 
   def test_it_is_another_valid_grid
+    # skip
     grid = [[1, 3, 2, 5, 7, 9, 4, 6, 8],
             [4, 9, 8, 2, 6, 1, 3, 7, 5],
             [7, 5, 6, 3, 8, 4, 2, 1, 9],
@@ -157,6 +167,7 @@ class SudokuTest < Minitest::Test
   end
 
   def test_it_is_another_invalid_grid_2
+    # skip
     grid = [[1, 3, 2, 5, 7, 9, 4, 6, 8],
             [4, 9, 8, 2, 6, 1, 3, 7, 5],
             [7, 5, 6, 3, 8, 4, 2, 1, 9],
@@ -171,6 +182,7 @@ class SudokuTest < Minitest::Test
 
 
   def test_it_is_incomplete_invalid_grid
+    # skip
     grid = [[1, 3, 2, 5, 7, 9, 4, 6, 8],
             [4, 9, 8, 2, 6, 0, 3, 7, 5],
             [7, 0, 6, 3, 8, 0, 2, 1, 9],
@@ -185,6 +197,7 @@ class SudokuTest < Minitest::Test
 
 
   def test_it_is_invalid_grid_with_repeated_diagonals
+    # skip
     grid = [[1, 2, 3, 4, 5, 6, 7, 8, 9],
             [2, 3, 4, 5, 6, 7, 8, 9, 1],
             [3, 4, 5, 6, 7, 8, 9, 1, 2],
@@ -199,6 +212,7 @@ class SudokuTest < Minitest::Test
 
 
   def test_it_is_invalid_grid_with_invalid_number
+    # skip
     grid = [[5, 3, 4, 6, 7, 8, 9, 1, 2],
             [6, 7, 2, 1, 9, 0, 3, 4, 9],
             [1, 0, 0, 3, 4, 2, 5, 6, 0],
